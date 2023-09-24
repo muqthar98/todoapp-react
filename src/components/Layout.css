@@ -1,0 +1,12 @@
+.layout {
+    display: grid;
+    grid-template-columns: 1fr repeat(8,minmax(100px,1fr)) 1fr;
+    min-height: 100dvh;
+    min-width: 100dvw;
+}
+
+.layout main {
+    grid-column: 2/-2;
+    height : 100%;
+    background-color: aquamarine;
+}
